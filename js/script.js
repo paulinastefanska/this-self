@@ -9,4 +9,7 @@ Button.prototype = {
 		this.element.addEventListener('click', function() {
 			alert(self.text);
 		});
+		document.body.appendChild(this.element);
+	}
 }
+
